@@ -87,6 +87,8 @@ Plugin 'mileszs/ack.vim'
 Plugin 'nvie/vim-flake8'
 Plugin 'joonty/vdebug'
 
+call vundle#end()
+
 filetype plugin indent on
 
 autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
@@ -95,10 +97,10 @@ autocmd FileType yml setlocal shiftwidth=2 tabstop=2 softtabstop=2
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 softtabstop=2
 
 set number
-set tw=79
+set tw=119
 set nowrap
 set fo-=t
-set colorcolumn=80
+set colorcolumn=120
 highlight ColorColumn ctermbg=9
 
 syntax on
