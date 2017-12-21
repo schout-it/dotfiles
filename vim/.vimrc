@@ -33,7 +33,7 @@ vnoremap <Leader>s :sort<CR>
 vnoremap < <gv
 vnoremap > >gv
 
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=7 guibg=7
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=7 guibg=#727272
 au InsertLeave * match ExtraWhitespace /\s\+$/
 
 set t_Co=256
